@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-int a, b = 5; // single line comment
+int a, b = 5; // single line comment //global variables
 
 /* Multi
 *  line
@@ -13,7 +13,7 @@ int a, b = 5; // single line comment
 int main(){
     bool my_flag;
     a = 7;
-    my_flag = false;
+    my_flag = false;//boolean functions
     std::cout << "a = " << a << std::endl;
     std::cout << "b = " << b << std::endl;
     std::cout << "flag = " << my_flag << std::endl;
