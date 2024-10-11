@@ -12,7 +12,7 @@ int main(){
     auto d = 3.14;
     auto e = true;
     auto f = 'd';
-    auto g = "C++ rocks!";
+    auto g = "C++ rocks!"; //char g
 
     std::cout << "The type of a is " << typeid(a).name() << std::endl;
     std::cout << "The type of b is " << typeid(b).name() << std::endl;
